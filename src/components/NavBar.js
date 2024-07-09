@@ -81,7 +81,7 @@ const NavBar = () => {
       {isMenuOpen && (
         <div className="md:hidden lg:hidden">
           <nav
-            className="xs:flex flex-col space-y-4 py-4 sm:flex flex-col space-y-4 py-4 "
+            className="xs:flex xs:flex-col xs:space-y-4 xs:py-4 sm:flex sm:flex-col sm:space-y-4 sm:py-4 "
             style={{ color: "black" }}
           >
             <Link to="/" className="hover:underline">

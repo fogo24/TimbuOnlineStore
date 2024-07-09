@@ -14,12 +14,15 @@ const ShoppingCart = () => {
             Shopping Cart{" "}
           </h1>
           {products
-            .filter((product) => product.id === id)
+            .filter((product) => String(product.id) === String(id))
             .map((product, id) => (
               <div className="bg-white p-8 rounded-lg shadow-md md:p-16 ">
-                <div key={id} className="flex items-center mb-6">
+                <div className="flex items-center mb-6">
                   <div className="w-full flex justify-between items-center relative  sm:flex-col xs:flex-col ">
-                    <div className="flex items-center sm:items-start xs:items-start ">
+                    <div
+                      key={id}
+                      className="flex items-center sm:items-start xs:items-start "
+                    >
                       <img
                         src={product.src}
                         alt={product.name}

@@ -19,7 +19,7 @@ const TimbuOnlineStore = () => {
           className="py-12 px-24 "
           style={{ backgroundColor: "#F5F5F5" }}
         >
-          <div className="container mx-auto space-x-8 flex xs:flex-col sm:flex-col md:flex-row items-center lg:flex-row items-center">
+          <div className="container mx-auto space-x-8 flex xs:flex-col sm:flex-col md:flex-row  lg:flex-row items-center">
             <div className="md:w-1/2 ">
               <h1
                 className="text-4xl font-bold mb-4 xs:text-center sm:text-center "
@@ -36,7 +36,7 @@ const TimbuOnlineStore = () => {
                 Seamless shopping for the discerning customer. Fast finds &
                 instant gratification.
               </p>
-              <button className="flex justify-center items-center text-black bg-red-100 mb-5 md:bg-red-600 text-white px-6 py-2 rounded  lg:bg-red-600 text-white px-6 py-2 rounded  xs:w-full  sm:mx-auto  ">
+              <button className="flex justify-center items-center text-black bg-red-100 mb-5 md:bg-red-600 md:text-white md:px-6 md:py-2 md:rounded  lg:bg-red-600 lg:text-white px-6 py-2 rounded  xs:w-full  sm:mx-auto  ">
                 <span className="xs:text-black sm:text-black"> Shop Now</span>
                 <span>
                   <GoArrowRight className="xs:text-black sm:text-black md:hidden lg:hidden" />

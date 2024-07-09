@@ -93,7 +93,7 @@ const Checkout = () => {
               <h2 className="text-xl font-semibold mb-4">Order Summary</h2>
               <div className="bg-white p-8 rounded-lg shadow mb-4">
                 {products
-                  .filter((product) => product.id === id)
+                  .filter((product) => String(product.id) === String(id))
                   .map((product, id) => (
                     <div key={id} className="flex items-center mb-4">
                       <img

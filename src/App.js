@@ -4,7 +4,7 @@ import TimbuOnlineStore from "./components/TimbuOnlineStore";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Checkout from "./components/CheckoutDetails";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import ShoppingCart from "./components/ShoppingCart";
 
 function App() {
