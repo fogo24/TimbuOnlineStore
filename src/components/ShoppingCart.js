@@ -30,10 +30,10 @@ const ShoppingCart = () => {
                       />
                       <div className="flex flex-col ">
                         {" "}
-                        <h2 className="text-xs md:text-xl font-semibold   ">
+                        <h2 className="text-xs md:text-xl lg:text-xl font-semibold   ">
                           {product.name}
                         </h2>
-                        <p className="text-xs text-gray-600  md:text-lg">
+                        <p className="text-xs text-gray-600  md:text-lg lg:text-xl">
                           Qty:1
                         </p>
                       </div>

@@ -11,7 +11,7 @@ const Checkout = () => {
       {/* Main Content */}
       <main className=" p-4">
         <div className=" mx-auto">
-          <h1 className="text-left xs:font-bold xs:ml-0 xs:mb-2 sm:font-bold sm:ml-32 sm:mb-4 md:text-2xl md:font-bold md:ml-8 lg:text-3xl lg:font-bold lg:mb-8 lg:ml-32  ">
+          <h1 className="text-left xs:font-bold xs:ml-0 xs:mb-2 sm:font-bold sm:ml-1 sm:mb-4 md:text-2xl md:font-bold md:ml-6 md:mb-4 lg:text-3xl lg:font-bold lg:mb-8 lg:ml-2">
             CHECKOUT
           </h1>
 
