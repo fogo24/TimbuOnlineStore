@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
-// import AddToCart from "./components/AddToCart";
 import TimbuOnlineStore from "./components/TimbuOnlineStore";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Checkout from "./components/CheckoutDetails";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
 import ShoppingCart from "./components/ShoppingCart";
 
 function App() {

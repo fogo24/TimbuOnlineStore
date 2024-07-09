@@ -1,4 +1,3 @@
-import React from "react";
 import Speaker from "../components/assets/Images/Rectangle 4241.png";
 import Neckfan from "../components/assets/Images/Rectangle 4234.png";
 import Headphone from "../components/assets/Images/Rectangle 4242.png";

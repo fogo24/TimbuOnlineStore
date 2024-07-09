@@ -5,7 +5,6 @@ import { IoIosClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
 import { MdAddShoppingCart } from "react-icons/md";
-import TimbuOnlineStore from "./TimbuOnlineStore";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

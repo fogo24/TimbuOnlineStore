@@ -1,13 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import products from "./ProductArray";
 import { Link, useParams } from "react-router-dom";
-import TimbuOnlineStore from "./TimbuOnlineStore";
 
 const ShoppingCart = () => {
-  const [shopCart, setShopCart] = useState("");
   const { id } = useParams();
-
-  const showCart = (product) => setShopCart(product);
 
   return (
     <div className="min-h-screen flex flex-col ">
@@ -18,7 +14,7 @@ const ShoppingCart = () => {
             Shopping Cart{" "}
           </h1>
           {products
-            .filter((product) => product.id == id)
+            .filter((product) => product.id === id)
             .map((product, id) => (
               <div className="bg-white p-8 rounded-lg shadow-md md:p-16 ">
                 <div key={id} className="flex items-center mb-6">

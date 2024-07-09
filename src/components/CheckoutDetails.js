@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import products from "./ProductArray";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Visa from "../components/assets/Images/Visa.png";
 
 const Checkout = () => {
-  const [checkout, setCheckout] = useState(" ");
   const { id } = useParams();
 
-  const showCheckout = (product) => setCheckout(product);
   return (
     <div className="min-h-screen flex flex-col bg-gray-100">
       {/* Main Content */}
@@ -95,7 +93,7 @@ const Checkout = () => {
               <h2 className="text-xl font-semibold mb-4">Order Summary</h2>
               <div className="bg-white p-8 rounded-lg shadow mb-4">
                 {products
-                  .filter((product) => product.id == id)
+                  .filter((product) => product.id === id)
                   .map((product, id) => (
                     <div key={id} className="flex items-center mb-4">
                       <img

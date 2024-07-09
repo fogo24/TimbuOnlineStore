@@ -5,8 +5,6 @@ import { IoSearch } from "react-icons/io5";
 import { GoArrowRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 import products from "./ProductArray";
-import ShoppingCart from "./ShoppingCart";
-import Checkout from "./CheckoutDetails";
 
 const TimbuOnlineStore = () => {
   const [modalProduct, setModalProduct] = useState("");
@@ -110,8 +108,9 @@ const TimbuOnlineStore = () => {
                           <div className="flex justify-between mb-4 ">
                             <div className="flex items-center">
                               <img
-                                className="w-40 h-44  md:w-20 h-20 mb-4 sm:hidden xs:hidden "
+                                className="w-40 h-44  md:w-20 md:h-20 mb-4 sm:hidden xs:hidden "
                                 src={modalProduct.src}
+                                alt={modalProduct.title}
                               />
                               <div>
                                 <h3 className="font-semibold sm:hidden xs:hidden">
